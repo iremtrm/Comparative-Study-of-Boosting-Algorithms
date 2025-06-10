@@ -1,40 +1,63 @@
-# Breast Cancer Classification Using Boosting Algorithms
+Breast Cancer Classification Using Boosting Algorithms
+Project Overview
+Breast cancer is one of the most common cancers affecting women worldwide. Timely and accurate diagnosis plays a vital role in successful treatment. This project focuses on classifying breast tumors as benign or malignant using several boosting algorithms, leveraging the Wisconsin Diagnostic Breast Cancer dataset.
 
-## 📌 Description
+Methods Applied
+The study implements and compares the performance of multiple boosting techniques, including:
 
-Breast cancer is the most frequently diagnosed cancer type among women worldwide. Early diagnosis and accurate classification are essential for effective treatment. In this project, the **Wisconsin Diagnostic Breast Cancer dataset** was used to classify tumors as **benign or malignant** using **boosting algorithms**.
+AdaBoost
 
-## 📊 Algorithms Used
+Gradient Boosting Machine (GBM)
 
-- AdaBoost
-- Gradient Boosting Machine (GBM)
-- XGBoost
-- LightGBM
-- CatBoost
+XGBoost
 
-Each algorithm was applied to the dataset and evaluated based on accuracy and confusion matrix metrics.
+LightGBM
 
-## 🛠 Tools & Libraries
+CatBoost
 
-- Python 3.x  
-- pandas  
-- scikit-learn  
-- xgboost  
-- lightgbm  
-- catboost  
-- matplotlib / seaborn
+Models were evaluated primarily through accuracy scores and confusion matrices to determine their effectiveness.
 
-## 📂 Dataset
+Technologies and Libraries
+Python 3.x
 
-- Dataset: Wisconsin Diagnostic Breast Cancer  
-- Samples: 569  
-- Features: 30 (Mean, SE, and Worst for various tumor dimensions)  
-- Labels: `Benign`, `Malignant`  
-- Source: [UCI Machine Learning Repository](https://archive.ics.uci.edu/ml/datasets/Breast+Cancer+Wisconsin+(Diagnostic))
+pandas
 
-## 🚀 How to Run
+scikit-learn
+
+xgboost
+
+lightgbm
+
+catboost
+
+matplotlib and seaborn for data visualization
+
+Dataset Details
+Source: Wisconsin Diagnostic Breast Cancer dataset
+
+Number of samples: 569
+
+Features: 30 numeric features describing tumor characteristics (mean, standard error, and worst measurements)
+
+Labels: Benign or Malignant
+
+UCI Machine Learning Repository link
+
+Running the Project
+To run the code locally:
+
+Clone the repository:
+
+bash
+Kopyala
+Düzenle
+git clone https://github.com/iremtarim/breast-cancer-boosting.git
+cd breast-cancer-boosting
+Install required packages (preferably in a virtual environment):
+
 
 1. Clone the repository:
    ```bash
    git clone https://github.com/iremtarim/breast-cancer-boosting.git
    cd breast-cancer-boosting
+
